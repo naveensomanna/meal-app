@@ -1,9 +1,5 @@
-import { Product } from "./ui/product";
+// import { Product } from "./ui/product";
 
 export default function Home() {
-  return (
-    <main>
-      <Product />
-    </main>
-  );
+  return <main>{/* <Product /> */}</main>;
 }
