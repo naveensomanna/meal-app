@@ -1,6 +1,6 @@
 // categories
 
-export const categories = [
+ const categories = [
   {
     id: 1,
     name: "All Menu",
@@ -20,76 +20,77 @@ export const categories = [
 ];
 
 // meals
-export const meals = [
+ const meals = [
   {
-    id: 1,
-    name: "Biryani",
-    type: "nonVeg",
-    price: "300",
-    description:
-      "A fragrant rice dish cooked with spices, often with meat (chicken, lamb, or goat), fish, eggs, or vegetables.",
+    id: '3958dc9e-712f-4377-85e9-fec4b6a6442a',
+    name: 'Biryani',
+    type: 'nonVeg',
+    price: '300',
+    // description: 'A fragrant rice dish cooked with spices',
+    // often with meat (chicken, lamb, or goat)', 
+    // fish, eggs, or vegetables.',
   },
   {
-    id: 2,
+    id: "3958dc9e-742f-4377-85e9-fec4b6a6442a",
     name: "Butter Chicken (Murgh Makhani)",
     type: "nonVeg",
     price: "400",
-    description:
-      "Grilled chicken cooked in a creamy tomato-based sauce, typically flavored with butter and various spices.",
+    // description:
+    //   "Grilled chicken cooked in a creamy tomato-based sauce, typically flavored with butter and various spices.",
   },
   {
-    id: 3,
+    id: "3958dc9e-737f-4377-85e9-fec4b6a6442a",
     name: "Tandoori Chicken",
     type: "nonVeg",
     price: "220",
-    description:
-      "Chicken marinated in yogurt and spices, cooked in a tandoor (clay oven), resulting in a smoky flavor and tender texture.",
+    // description:
+    //   "Chicken marinated in yogurt and spices, cooked in a tandoor (clay oven), resulting in a smoky flavor and tender texture.",
   },
   {
-    id: 4,
+    id: "50ca3e18-62cd-11ee-8c99-0242ac120002",
     name: "Paneer Tikka",
     type: "veg",
     price: "120",
-    description:
-      "Cubes of paneer (Indian cottage cheese) marinated in spices and grilled or baked.",
+    // description:
+    //   "Cubes of paneer (Indian cottage cheese) marinated in spices and grilled or baked.",
   },
   {
-    id: 5,
+    id: "3958dc9e-787f-4377-85e9-fec4b6a6442a",
     name: "Dal Makhani",
     type: "veg",
     price: "150",
-    description:
-      "A rich and creamy lentil dish made from black lentils (urad dal) and kidney beans (rajma), cooked with butter, cream, and spices.",
+    // description:
+    //   "A rich and creamy lentil dish made from black lentils (urad dal) and kidney beans (rajma), cooked with butter, cream, and spices.",
   },
   {
-    id: 6,
+    id: "76d65c26-f784-44a2-ac19-586678f7c2f2",
     name: "Dosa",
     type: "veg",
     price: "90",
-    description:
-      "A thin, crispy pancake made from fermented rice and lentil batter, typically served with chutneys and sambar (a lentil-based stew).",
+    // description:
+    //   "A thin, crispy pancake made from fermented rice and lentil batter, typically served with chutneys and sambar (a lentil-based stew).",
   },
   {
-    id: 7,
+    id: "d6e15727-9fe1-4961-8c5b-ea44a9bd81aa",
     name: "Tandoori Roti",
     type: "veg",
     price: "110",
-    description:
-      "Whole wheat flatbread cooked in a tandoor oven, often served with various dishes.",
+    // description:
+    //   "Whole wheat flatbread cooked in a tandoor oven, often served with various dishes.",
   },
   {
-    id: 8,
+    id:"126eed9c-c90c-4ef6-a4a8-fcf7408d3c66",
     name: "Chicken Tikka Masala",
     type: "nonVeg",
     price: "140",
-    description:
-      "Grilled chicken pieces cooked in a creamy, tomato-based sauce with spices.",
+    // description:
+    //   "Grilled chicken pieces cooked in a creamy, tomato-based sauce with spices.",
   },
 ];
 
-// soup
+// // soup
 
-export const soup = [
+ const soup = [
   {
     id: 1,
     name: "Mulligatawny Soup",
@@ -125,8 +126,7 @@ export const soup = [
 ];
 
 // soup
-
-export const sideDish = [
+ const sideDish = [
   {
     id: 1,
     name: "Raita",
@@ -160,3 +160,10 @@ export const sideDish = [
       "Stir-fried or sautéed vegetables seasoned with spices and sometimes mixed with gram flour (besan) to create a thick, flavorful side dish.",
   },
 ];
+
+
+module.exports={
+  meals,
+  soup,
+  sideDish
+}
