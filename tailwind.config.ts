@@ -12,6 +12,10 @@ const config: Config = {
       current: "currentColor",
       white: "#ffffff",
       desertStorm: "#f7f7f8",
+      black01: "#666",
+      green: "#65c467",
+      orange: "#f19c39",
+      blue: "#3861fb",
     },
     extend: {
       backgroundImage: {

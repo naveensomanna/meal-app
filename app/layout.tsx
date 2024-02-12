@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Raleway } from "next/font/google";
-// import { Header } from "./ui/header";
+import { Header } from "./ui/header";
 import { UserProvider } from "@auth0/nextjs-auth0/client";
 import "../app/ui/globals.css";
 
@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} bg-desertStorm`}>
         <UserProvider>
-          {/* <Header /> */}
+          <Header />
           {children}
         </UserProvider>
       </body>
