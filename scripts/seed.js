@@ -14,7 +14,8 @@ async function seedMeals(client) {
         id UUID DEFAULT uuid_generate_v4() PRIMARY KEY,
         name VARCHAR(255) NOT NULL,
         type VARCHAR(255) NOT NULL,
-        price VARCHAR(255) NOT NULL
+        price VARCHAR(255) NOT NULL,
+        image TEXT NOT NULL
         );
         `;
 
@@ -25,8 +26,8 @@ async function seedMeals(client) {
     const insertedMeals = await Promise.all(
       meals.map(
         (meal) => client.sql`
-        INSERT INTO meals (id, name, type, price)
-        VALUES (${meal.id}, ${meal.name}, ${meal.type}, ${meal.price})
+        INSERT INTO meals (id, name, type, price, image)
+        VALUES (${meal.id}, ${meal.name}, ${meal.type}, ${meal.price}, ${meal.image})
         ON CONFLICT (id) DO NOTHING;
         `,
       ),

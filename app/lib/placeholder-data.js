@@ -26,6 +26,8 @@
     name: 'Biryani',
     type: 'nonVeg',
     price: '300',
+
+    image: '/meals/biryani'
     // description: 'A fragrant rice dish cooked with spices',
     // often with meat (chicken, lamb, or goat)', 
     // fish, eggs, or vegetables.',
@@ -35,6 +37,7 @@
     name: "Butter Chicken (Murgh Makhani)",
     type: "nonVeg",
     price: "400",
+    image: '/meals/butterChiken'
     // description:
     //   "Grilled chicken cooked in a creamy tomato-based sauce, typically flavored with butter and various spices.",
   },
@@ -43,6 +46,7 @@
     name: "Tandoori Chicken",
     type: "nonVeg",
     price: "220",
+    image: '/meals/tandooriChicken'
     // description:
     //   "Chicken marinated in yogurt and spices, cooked in a tandoor (clay oven), resulting in a smoky flavor and tender texture.",
   },
@@ -51,6 +55,7 @@
     name: "Paneer Tikka",
     type: "veg",
     price: "120",
+    image: '/meals/pannerTikka'
     // description:
     //   "Cubes of paneer (Indian cottage cheese) marinated in spices and grilled or baked.",
   },
@@ -59,6 +64,7 @@
     name: "Dal Makhani",
     type: "veg",
     price: "150",
+    image: '/meals/dalmakani'
     // description:
     //   "A rich and creamy lentil dish made from black lentils (urad dal) and kidney beans (rajma), cooked with butter, cream, and spices.",
   },
@@ -67,6 +73,7 @@
     name: "Dosa",
     type: "veg",
     price: "90",
+    image: '/meals/dosa'
     // description:
     //   "A thin, crispy pancake made from fermented rice and lentil batter, typically served with chutneys and sambar (a lentil-based stew).",
   },
@@ -75,6 +82,7 @@
     name: "Tandoori Roti",
     type: "veg",
     price: "110",
+    image: '/meals/roti'
     // description:
     //   "Whole wheat flatbread cooked in a tandoor oven, often served with various dishes.",
   },
@@ -83,6 +91,7 @@
     name: "Chicken Tikka Masala",
     type: "nonVeg",
     price: "140",
+    image: '/meals/chickenTikkaMasala'
     // description:
     //   "Grilled chicken pieces cooked in a creamy, tomato-based sauce with spices.",
   },

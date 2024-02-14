@@ -4,7 +4,7 @@ export const SalesAnalytics = () => {
   return (
     <section className="w-full">
       <h2>Sales Analytic</h2>
-      <section className="flex gap-8 py-4">
+      <section className="flex gap-8 pt-6 pb-10">
         <div className="bg-white rounded-xl px-4 pt-5 pb-3 flex-1 ">
           <div className="flex justify-between items-center mb-4">
             <div className="flex gap-1 items-center">
