@@ -3,6 +3,7 @@ import { Raleway } from "next/font/google";
 import { Header } from "./ui/header";
 import { UserProvider } from "@auth0/nextjs-auth0/client";
 import "../app/ui/globals.css";
+import { Sidebar } from "./ui/sidebar";
 
 const inter = Raleway({
   subsets: ["latin"],
@@ -23,8 +24,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} bg-desertStorm`}>
         <UserProvider>
-          <Header />
-          {children}
+          <Sidebar />
+          <div className="ml-12">
+            <Header />
+            {children}
+          </div>
         </UserProvider>
       </body>
     </html>

@@ -6,7 +6,7 @@ export const Meal = async () => {
   const result: any = await getAllMeals();
   return (
     <section className="py-4 grid grid-cols-3 gap-6">
-      {result.map((meal: MealInterface) => (
+      {(result || []).map((meal: MealInterface) => (
         <Card key={meal.id} {...meal} />
       ))}
     </section>
